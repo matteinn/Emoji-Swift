@@ -10,7 +10,7 @@
 
 
 public struct Emoji {
-    let shortname: String
+    public let shortname: String
     let codepoints: [String]
 
     public init(shortname: String, codepoints: [String]) {
@@ -19,7 +19,7 @@ public struct Emoji {
     }
 }
 
-internal let emoji: [Emoji] = [
+public let emoji: [Emoji] = [
 
   Emoji(shortname: "pound_symbol"                   , codepoints: ["\u{0023}\u{fe0f}"]),
   Emoji(shortname: "hash"                           , codepoints: ["\u{0023}\u{fe0f}\u{20e3}",
