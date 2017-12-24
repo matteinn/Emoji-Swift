@@ -11,7 +11,7 @@
 
 public struct Emoji {
     public let shortname: String
-    let codepoints: [String]
+    public let codepoints: [String]
 
     public init(shortname: String, codepoints: [String]) {
         self.shortname = shortname
